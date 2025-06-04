@@ -36,12 +36,14 @@ button {
 #yesButton {
     background-color: #ff4081;
     color: white;
+    border-radius: 30px;
 }
 
 #noButton {
     background-color: gray;
     color: white;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 #mensajeSi {
