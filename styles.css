@@ -1,0 +1,109 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fce4ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 3px solid #ff80ab; /* Borde rosado */
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noButton {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+#mensajeSi {
+    font-size: 18px;
+    color: #d81b60;
+    margin-top: 15px;
+    font-style: italic;
+}
+#mensajeContainer {
+    position: relative; /* Para que los cuadros se posicionen uno encima del otro */
+    margin-top: 20px;
+}
+
+.mensajeCuadro {
+    background-color: #ff80ab;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.destacado {
+    font-size: 45px; /* Ajusta el tamaño */
+    font-weight: bold; /* Hace que se vea más resaltado */
+    color: #ff4081; /* Un toque de color romántico */
+}
+.segunda-frase {
+    font-size: 15px; /* Ajusta el tamaño solo para esta frase */
+    font-weight: bold;
+    color:right 0;;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.mensajeCuadro {
+    background-color: #ff80ab;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: aparecer 0.5s ease-in-out; /* Aparece con efecto */
+}
+
+
+
+
+
+  
